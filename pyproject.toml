@@ -1,0 +1,26 @@
+[project]
+name = "rrta"
+version = "0.1"
+authors = [
+  { name="Nate Shoffner", email="nate.shoffner@gmail.com" },
+]
+description = "Python wrapper for the RRTA (MyStop) REST API."
+keywords = ["rrta", "lancaster"]
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "aiohttp", 
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+"Homepage" = "https://github.com/NateShoffner/python-rrta"
+"Bug Tracker" = "https://github.com/NateShoffner/python-rrta/issues"

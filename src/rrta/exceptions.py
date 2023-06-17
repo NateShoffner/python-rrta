@@ -1,0 +1,2 @@
+class MyStopApiException(Exception):
+    pass
